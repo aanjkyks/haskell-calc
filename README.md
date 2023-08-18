@@ -6,5 +6,6 @@ pet project to parse simple calculation expressions ane hopefully at some point 
 $ ghci
 ```
 ```haskell
+ghci> :l Main.hs
 ghci> runParser calcExpr "22+33*44/55"
 ``` 
